@@ -1,4 +1,4 @@
-#Adax API radiator data to BigQuery
+# Adax API radiator data to BigQuery
 
 Script to poll the Adax API for rooms, and their current and target temperatures, and then upload this to a BigQuery table. 
 
