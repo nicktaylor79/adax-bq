@@ -44,5 +44,6 @@ def get_homes_info(token):
             print(insert_rows)
             to_bigquery(os.environ['dataset'], os.environ['table'], insert_rows)
 
-token = get_token()
-get_homes_info(token)
+def adaxtobq(event):
+    token = get_token()
+    get_homes_info(token)
