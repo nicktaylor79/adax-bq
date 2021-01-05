@@ -46,4 +46,5 @@ def get_homes_info(token):
 
 def adaxtobq(event):
     token = get_token()
-    get_homes_info(token)
+    get_homes_info(token) 
+    
